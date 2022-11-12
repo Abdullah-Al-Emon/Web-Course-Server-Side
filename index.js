@@ -14,6 +14,7 @@ app.get('/', (req, res) =>
     res.send('web course server is running')
 })
 
+
 app.get('/new-course', (req, res) =>
 {
     res.send(course)
